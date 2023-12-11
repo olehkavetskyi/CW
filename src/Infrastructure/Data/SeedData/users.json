@@ -1,0 +1,27 @@
+[
+  {
+    "Email": "michael.johnson@cw.com",
+    "Password": "P@ssw0rd1",
+    "Role": "Manager"
+  },
+  {
+    "Email": "sara.miller@cw.com",
+    "Password": "SecurePass123!",
+    "Role": "Manager"
+  },
+  {
+    "Email": "alex.davis@cw.com",
+    "Password": "Str0ngP@ss",
+    "Role": "Cashier"
+  },
+  {
+    "Email": "emily.wilson@cw.com",
+    "Password": "P@ssw0rd123",
+    "Role": "Admin"
+  },
+  {
+    "Email": "chris.taylor@cw.com",
+    "Password": "SecureP@ss789",
+    "Role": "Admin"
+  }
+]

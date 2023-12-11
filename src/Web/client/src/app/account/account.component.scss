@@ -1,0 +1,38 @@
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
+  
+    .account-control-center {
+      max-width: 300px;
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+  
+      padding: 20px;
+      border: 1px solid #ddd;
+      border-radius: 8px;
+      background-color: #fff;
+  
+      p {
+        font-size: 1.5rem;
+        margin-bottom: 10px;
+      }
+  
+      .login-button {
+        display: block;
+        padding: 10px;
+        color: #3498db;
+        text-decoration: none;
+        font-weight: bold;
+  
+        &:hover {
+          text-decoration: underline;
+        }
+      }
+    }
+  }
+  

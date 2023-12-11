@@ -1,0 +1,52 @@
+[
+  {
+    "Id": "97825167-5951-463c-9aec-04ca70380d38",
+    "CustomerId": "1c9467e3-32da-4aaf-b2a4-0c3d26fb61b9",
+    "ShopId": "88c5a20d-d5d8-4c1e-8879-dce8453eb105",
+    "EmployeeId": "a7334c4c-ecdd-4ec0-aa65-5fdb0e6a37cd",
+    "Products": [
+
+    ],
+    "Date": "2023-12-02T12:34:56Z"
+  },
+  {
+    "Id": "b38692f3-b1fd-42b4-a6e7-4adf35d60029",
+    "CustomerId": "2c9467e3-32da-4aaf-b2a4-0c3d26fb61b9",
+    "ShopId": "4f5b8c14-2015-466e-9097-cc237b06edbe",
+    "EmployeeId": "a7334c4c-ecdd-4ec0-aa65-5fdb0e6a37cd",
+    "Products": [
+
+    ],
+    "Date": "2023-12-03T14:30:00Z"
+  },
+  {
+    "Id": "be37d0ee-81d8-462e-8e5d-d031b478fc01",
+    "CustomerId": "3c9467e3-32da-4aaf-b2a4-0c3d26fb61b9",
+    "ShopId": "a72d5c35-92a7-4646-a0f9-1ef2c27fa437",
+    "EmployeeId": "a7334c4c-ecdd-4ec0-aa65-5fdb0e6a37cd",
+    "Products": [
+
+    ],
+    "Date": "2023-12-04T16:45:00Z"
+  },
+  {
+    "Id": "36733c21-b653-4c13-91c6-cf3916c6b299",
+    "CustomerId": "4c9467e3-32da-4aaf-b2a4-0c3d26fb61b9",
+    "ShopId": "4f5b8c14-2015-466e-9097-cc237b06edbe",
+    "EmployeeId": "a7334c4c-ecdd-4ec0-aa65-5fdb0e6a37cd",
+    "Products": [
+
+    ],
+    "Date": "2023-12-05T10:15:00Z"
+  },
+  {
+    "Id": "c59c7d7f-9704-48fb-b838-fa4075c8f2c7",
+    "CustomerId": "5c9467e3-32da-4aaf-b2a4-0c3d26fb61b9",
+    "ShopId": "a72d5c35-92a7-4646-a0f9-1ef2c27fa437",
+    "EmployeeId": "a7334c4c-ecdd-4ec0-aa65-5fdb0e6a37cd",
+    "Products": [
+
+    ],
+    "Date": "2023-12-06T12:00:00Z"
+  }
+]

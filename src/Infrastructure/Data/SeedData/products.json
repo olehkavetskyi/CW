@@ -1,0 +1,33 @@
+[
+  {
+    "Id": "2784fec6-4ccb-4552-84b4-51ce67cda6e0",
+    "Name": "They Do It With Mirrors",
+    "Category": "Books",
+    "Price": 899.99
+  },
+  {
+    "Id": "1dbf4feb-2a6f-4840-8c61-b2645fcff550",
+    "Name": "A Man Lay Dead",
+    "Category": "Books",
+    "Price": 59.99
+  },
+  {
+    "Id": "6ac5eb6a-cb8e-485b-8d88-e124c5b76927",
+    "Name": "Taken at the Flood",
+    "Category": "Books",
+    "Price": 129.99
+  },
+  {
+    "Id": "73394823-2bea-4814-b888-b67ad77f255f",
+    "Name": "Wire",
+    "Category": "Electronics",
+    "Price": 39.99
+
+  },
+  {
+    "Id": "ad27b145-1cc2-4df4-b3e2-ebcdaeff6944",
+    "Name": "Tarpaulin",
+    "Category": "Utility Products",
+    "Price": 699.99
+  }
+]

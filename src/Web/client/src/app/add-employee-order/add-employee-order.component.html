@@ -1,0 +1,48 @@
+<div class="container">
+    <h1>Choose your order</h1>
+    <div>
+    <form [formGroup]="findElemForm" (ngSubmit)="find()">
+        <label>Find by name:</label>
+        <input type="text" formControlName="findElement">
+        <button type="submit">Find</button>
+    </form>
+    </div>
+
+    <div *ngIf="data.length > 0 else nothing">
+      
+      <table>
+        <thead>
+          <tr>
+            <th>Name</th>
+            <th>Total Amount Left</th>
+            <th>Take</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr *ngFor="let item of data">
+            <td>{{ item.product.name }}</td>
+            <td>{{ item.quantity }}</td>
+            <td><input (change)="addElem($event, item)" type="number" [(ngModel)]="item.inputValue"></td>
+          </tr>
+        </tbody>
+      </table>
+      
+      <div class="pagination">
+        <button (click)="onPageChange(currentPage - 1)" [disabled]="currentPage === 1">Previous</button>
+        <span>{{ currentPage }}</span>
+        <button (click)="onPageChange(currentPage + 1)" [disabled]="currentPage >= totalPages">Next</button>
+      </div>
+
+      <button 
+        (click)="submitOrder()" 
+        class="order-btn"
+        [disabled]="employeeOrders.length < 1">Order</button>
+    </div>
+
+    <ng-template #nothing>
+      <div class="empty-message">
+        <h2>The warehouse is currently empty or there is a technical error</h2>
+        <h3>Please check again later</h3>
+      </div>
+    </ng-template>
+  </div>

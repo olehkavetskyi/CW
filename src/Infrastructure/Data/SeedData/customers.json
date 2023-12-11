@@ -1,0 +1,37 @@
+[
+  {
+    "Id": "1c9467e3-32da-4aaf-b2a4-0c3d26fb61b9",
+    "FirstName": "John",
+    "LastName": "Doe",
+    "Email": "john.doe@example.com",
+    "PhoneNumber": "123-456-7890"
+  },
+  {
+    "Id": "2c9467e3-32da-4aaf-b2a4-0c3d26fb61b9",
+    "FirstName": "Jane",
+    "LastName": "Smith",
+    "Email": "jane.smith@example.com",
+    "PhoneNumber": "987-654-3210"
+  },
+  {
+    "Id": "3c9467e3-32da-4aaf-b2a4-0c3d26fb61b9",
+    "FirstName": "Alice",
+    "LastName": "Johnson",
+    "Email": "alice.johnson@example.com",
+    "PhoneNumber": "555-123-4567"
+  },
+  {
+    "Id": "4c9467e3-32da-4aaf-b2a4-0c3d26fb61b9",
+    "FirstName": "Bob",
+    "LastName": "Williams",
+    "Email": "bob.williams@example.com",
+    "PhoneNumber": "777-888-9999"
+  },
+  {
+    "Id": "5c9467e3-32da-4aaf-b2a4-0c3d26fb61b9",
+    "FirstName": "Eva",
+    "LastName": "Brown",
+    "Email": "eva.brown@example.com",
+    "PhoneNumber": "111-222-3333"
+  }
+]

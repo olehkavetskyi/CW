@@ -1,0 +1,16 @@
+[
+  {
+    "Id": "ae23a1c4-8c4d-4c85-afcd-432a79d75b9e",
+    "ShopId": "a72d5c35-92a7-4646-a0f9-1ef2c27fa437",
+    "ProductId": "1dbf4feb-2a6f-4840-8c61-b2645fcff550",
+    "Product": null,
+    "Quantity": 50
+  },
+  {
+    "Id": "3e4a4cf8-3bb1-4c72-ba95-724c03d947a3",
+    "ShopId": "a72d5c35-92a7-4646-a0f9-1ef2c27fa437",
+    "ProductId": "73394823-2bea-4814-b888-b67ad77f255f",
+    "Product": null,
+    "Quantity": 30
+  }
+]

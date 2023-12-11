@@ -1,0 +1,47 @@
+[
+  {
+    "Id": "6c9467e3-32da-4aaf-b2a4-0c3d26fb61b9",
+    "FirstName": "Michael",
+    "LastName": "Johnson",
+    "Position": "Manager",
+    "Salary": 50000,
+    "ShopId": "88c5a20d-d5d8-4c1e-8879-dce8453eb105",
+    "EmailAddress": "michael.johnson@cw.com"
+  },
+  {
+    "Id": "8c9467e3-32da-4aaf-b2a4-0c3d26fb61b9",
+    "FirstName": "Sara",
+    "LastName": "Miller",
+    "Position": "Sales Associate",
+    "Salary": 40000,
+    "ShopId": "4f5b8c14-2015-466e-9097-cc237b06edbe",
+    "EmailAddress": "sara.miller@cw.com"
+  },
+  {
+    "Id": "57abf854-6dc1-47d4-a48c-8d6cefbf2a11",
+    "FirstName": "Alex",
+    "LastName": "Davis",
+    "Position": "Cashier",
+    "Salary": 35000,
+    "ShopId": "4f5b8c14-2015-466e-9097-cc237b06edbe",
+    "EmailAddress": "alex.davis@cw.com"
+  },
+  {
+    "Id": "a7334c4c-ecdd-4ec0-aa65-5fdb0e6a37cd",
+    "FirstName": "Emily",
+    "LastName": "Wilson",
+    "Position": "Supervisor",
+    "Salary": 55000,
+    "ShopId": "a72d5c35-92a7-4646-a0f9-1ef2c27fa437",
+    "EmailAddress": "emily.wilson@cw.com"
+  },
+  {
+    "Id": "0aef027e-be48-4bff-a83a-ec1648975ab9",
+    "FirstName": "Chris",
+    "LastName": "Taylor",
+    "Position": "Security Guard",
+    "Salary": 30000,
+    "ShopId": "a72d5c35-92a7-4646-a0f9-1ef2c27fa437",
+    "EmailAddress": "chris.taylor@cw.com"
+  }
+]

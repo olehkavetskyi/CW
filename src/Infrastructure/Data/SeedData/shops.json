@@ -1,0 +1,35 @@
+[
+  {
+    "Id": "88c5a20d-d5d8-4c1e-8879-dce8453eb105",
+    "Name": "Example Shop",
+    "Address": "123 Main Street",
+    "Employees": [
+
+    ],
+    "Products": [
+
+    ]
+  },
+  {
+    "Id": "4f5b8c14-2015-466e-9097-cc237b06edbe",
+    "Name": "Second Shop",
+    "Address": "456 Oak Avenue",
+    "Employees": [
+
+    ],
+    "Products": [
+
+    ]
+  },
+  {
+    "Id": "a72d5c35-92a7-4646-a0f9-1ef2c27fa437",
+    "Name": "Third Shop",
+    "Address": "789 Pine Street",
+    "Employees": [
+
+    ],
+    "Products": [
+
+    ]
+  }
+]

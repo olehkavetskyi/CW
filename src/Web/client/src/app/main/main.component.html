@@ -1,0 +1,56 @@
+<div class="dashboard">
+  <div class="dashboard-section navigation">
+    <h2>Navigation</h2>
+    <a routerLink="/add-customer-order">Add Customer Order</a>
+    <a routerLink="/add-employee-order">Add Employee Order</a>
+  </div>
+
+  <div class="dashboard-section admin-panel" *ngIf="role == 'Admin'">
+    <h2>Admin panel</h2>
+    <a routerLink="/warehouse">Go to the warehouse</a>
+    <a routerLink="/shops">See a shop list</a>
+  </div>
+
+  <div class="dashboard-section manager-panel" *ngIf="role == 'Manager'">
+    <h2>Manager panel</h2>
+    <a routerLink="/warehouse">Go to the warehouse</a>
+  </div>
+
+  <div class="dashboard-section productivity">
+    <h2>{{ currentShop.name }} Productivity</h2>
+  
+    <p>User Productivity: <span>{{ currentEmployee.productivity }}%</span></p>
+
+    <h3>Average shop productivity: <span>{{averageProductivity}}%</span></h3>
+    <h3>Employees:</h3>
+    <ul>
+      <li *ngFor="let employee of currentShop.employees">
+        <span>{{ employee.firstName }} {{employee.lastName }}</span> Position: <span>{{employee.position}}</span>
+      </li>
+    </ul>
+  </div>
+
+  <div class="dashboard-section shop-details">
+    <h2>Shop name: <span>{{currentShop.name}}</span></h2>
+    <h2>You: <span>{{currentEmployee.firstName}} {{currentEmployee.lastName}}</span></h2>
+    <h2>Number of employees: <span>{{currentShop.employees.length}}</span></h2>
+  </div>
+
+  <div class="dashboard-section customer-orders">
+    <h2>Data of orders of your customers:</h2>
+    <ul>
+      <li *ngFor="let customerOrder of customerOrders">
+        {{ customerOrder.date | date }} 
+      </li>
+    </ul>
+  </div>
+
+  <div class="dashboard-section employee-orders">
+    <h2>Data of your orders:</h2>
+    <ul>
+      <li *ngFor="let employeeOrder of employeeOrders">
+        {{ employeeOrder.date | date }}
+      </li>
+    </ul>
+  </div>
+</div>

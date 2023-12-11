@@ -1,0 +1,23 @@
+[
+  {
+    "Id": "d11f4b2a-82d1-4e28-a293-5c388f4b9f8a",
+    "WarehouseId": "12345678-1234-1234-1234-123456789abc",
+    "ProductId": "2784fec6-4ccb-4552-84b4-51ce67cda6e0",
+    "Product": null,
+    "Quantity": 100
+  },
+  {
+    "Id": "2f8bc54d-1320-4d4e-89d8-9e86a02b3541",
+    "WarehouseId": "12345678-1234-1234-1234-123456789abc",
+    "ProductId": "6ac5eb6a-cb8e-485b-8d88-e124c5b76927",
+    "Product": null,
+    "Quantity": 75
+  },
+  {
+    "Id": "7e9f143a-3c14-4c48-ae07-35b60e4b7cb5",
+    "WarehouseId": "12345678-1234-1234-1234-123456789abc",
+    "ProductId": "ad27b145-1cc2-4df4-b3e2-ebcdaeff6944",
+    "Product": null,
+    "Quantity": 60
+  }
+]

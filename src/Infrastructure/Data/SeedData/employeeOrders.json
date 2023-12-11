@@ -1,0 +1,42 @@
+[
+  {
+    "Id": "7b5bdc35-4c6a-4e82-b15d-4363baf8d9dd",
+    "EmployeeId": "6c9467e3-32da-4aaf-b2a4-0c3d26fb61b9",
+    "Date": "2023-12-02T12:34:56Z",
+    "Products": [
+
+    ]
+  },
+  {
+    "Id": "7962a969-bb1e-4352-90b5-88e121afd493",
+    "EmployeeId": "8c9467e3-32da-4aaf-b2a4-0c3d26fb61b9",
+    "Date": "2023-12-03T14:30:00Z",
+    "Products": [
+
+    ]
+  },
+  {
+    "Id": "1f2153b1-dad3-494e-a3ae-84f99bdc036b",
+    "EmployeeId": "a7334c4c-ecdd-4ec0-aa65-5fdb0e6a37cd",
+    "Date": "2023-12-04T16:45:00Z",
+    "Products": [
+
+    ]
+  },
+  {
+    "Id": "176d8391-ccee-483a-9481-3b8b73b2417a",
+    "EmployeeId": "57abf854-6dc1-47d4-a48c-8d6cefbf2a11",
+    "Date": "2023-12-05T10:15:00Z",
+    "Products": [
+
+    ]
+  },
+  {
+    "Id": "f1684ddf-0f51-4c66-80b3-1f896c0d4e61",
+    "EmployeeId": "0aef027e-be48-4bff-a83a-ec1648975ab9",
+    "Date": "2023-12-06T12:00:00Z",
+    "Products": [
+
+    ]
+  }
+]
