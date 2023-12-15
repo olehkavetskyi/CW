@@ -63,7 +63,7 @@ Npgsql.EntityFrameworkCore.PostgreSQL
 
 Змініть строку в файлі appsettings.json
 ```json
-  ConnectionStrings {
-    DefaultConnection your_connection_string
+  "ConnectionStrings" {
+    "DefaultConnection": "your_connection_string"
   },
 ```
