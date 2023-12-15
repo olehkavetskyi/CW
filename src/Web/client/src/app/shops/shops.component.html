@@ -2,9 +2,9 @@
     <h1>Shop List</h1>
     <ul>
         <li *ngFor="let shop of shops" class="shop-item">
-            <strong>Name:</strong> {{shop.name}}<br>
-            <strong>Address:</strong> {{shop.address}}<br>
-            <strong>Efficiency:</strong> {{shop.averageEfficiency}}
+            Name: <span>{{shop.name}}</span><br>
+            Address: <span>{{shop.address}}</span><br>
+            Efficiency: <span>{{shop.averageEfficiency}}</span>
         </li>
     </ul>
 </div>

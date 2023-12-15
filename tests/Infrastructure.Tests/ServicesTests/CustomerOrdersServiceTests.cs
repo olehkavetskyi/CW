@@ -1,4 +1,5 @@
-﻿using Application.Interfaces;
+﻿using Application.Dtos;
+using Application.Interfaces;
 using Domain.Entities;
 using Infrastructure.Data;
 using Infrastructure.Services;
@@ -40,8 +41,14 @@ public class CustomerOrdersServiceTests
         context.ShopProducts.AddRange(shopProduct1, shopProduct2);
         context.SaveChanges();
 
+        var customerOrder = new CustomerOrderDto()
+        {
+            Products = customerOrderProducts,
+            CustomerEmail = "amil@test.com"
+        };
+
         // Act
-        await customerOrdersService.AddCustomerOrderAsync(customerOrderProducts, email);
+        await customerOrdersService.AddCustomerOrderAsync(customerOrder, email);
 
         // Assert
         var addedOrder = await context.CustomerOrders.FirstOrDefaultAsync();
